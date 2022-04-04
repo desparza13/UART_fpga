@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-04-04T11:34:04</DateModified>
+  <DateModified>2022-04-04T12:19:22</DateModified>
   <ModuleName>Top</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/ochav/OneDrive - ITESO/Cuarto semestre/Fundamentos de sistemas digitales/Circuitos combinacionales/AnilloBasys/iseconfig/Top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/ochav/OneDrive - ITESO/Cuarto semestre/Fundamentos de sistemas digitales/Circuitos combinacionales/AnilloBasys\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/cpere/Documents/Ingenieria en Sistemas Computacionales/CUARTOSEMESTRE/GitHub/UART_fpga/iseconfig/Top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/cpere/Documents/Ingenieria en Sistemas Computacionales/CUARTOSEMESTRE/GitHub/UART_fpga\</ImplementationReportsDirectory>
   <DateInitialized>2022-04-01T09:56:50</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Top(
 		input [7:0] dataInputBlock,
-		output [3:0] dataRep
+		output [3:0] dataRep,
 		input CLK,
 		input RESET,
 		output [3:0]TRANSISTOR,
@@ -33,8 +33,6 @@ module Top(
 		output F,
 		output G
     );
-	 
-	
 	 
 	Receiver receiver(.informationBits(dataInputBlock), .clk(CLK), .reset(RESET));
 							

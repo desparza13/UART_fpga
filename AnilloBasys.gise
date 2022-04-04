@@ -85,19 +85,10 @@
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
-      <outfile xil_pn:name=".lso"/>
-      <outfile xil_pn:name="Top.lso"/>
-      <outfile xil_pn:name="Top.ngc"/>
-      <outfile xil_pn:name="Top.ngr"/>
-      <outfile xil_pn:name="Top.prj"/>
-      <outfile xil_pn:name="Top.stx"/>
-      <outfile xil_pn:name="Top.syr"/>
-      <outfile xil_pn:name="Top.xst"/>
-      <outfile xil_pn:name="Top_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 
