@@ -1,0 +1,6 @@
+verilog work "../Disp7Segmentos/sevenSeg.v"
+verilog work "Transmitter.v"
+verilog work "Transistor.v"
+verilog work "Receiver.v"
+verilog work "GTV.v"
+verilog work "Top.v"

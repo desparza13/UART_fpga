@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/ochav/OneDrive - ITESO/Cuarto semestre/Fundamentos de sistemas digitales/Circuitos combinacionales/AnilloBasys/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/ochav/OneDrive - ITESO/Cuarto semestre/Fundamentos de sistemas digitales/Circuitos combinacionales/AnilloBasys/xst"
+elaborate
+-ifn Transistor.prj
+-ifmt mixed

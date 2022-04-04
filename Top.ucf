@@ -1,0 +1,30 @@
+NET "dataInputBlock[0]" LOC = "P11";
+NET "dataInputBlock[1]" LOC = "L3";
+NET "dataInputBlock[2]" LOC = "K3";
+NET "dataInputBlock[3]" LOC = "B4";
+
+NET "dataInputBlock[4]" LOC = "E2";
+NET "dataInputBlock[5]" LOC = "N3";
+
+NET "dataInputBlock[6]" LOC = "G3";
+NET "dataInputBlock[7]" LOC = "F3";
+
+NET "CLK" LOC = "B8";
+
+NET "RESET" LOC = "G12";
+
+NET "A" LOC = "L14";
+NET "B" LOC = "H12";
+NET "C" LOC = "N14";
+NET "D" LOC = "N11";
+NET "E" LOC = "P12";
+NET "F" LOC = "L13";
+NET "G" LOC = "M12";
+
+NET "TRANSISTOR[0]" LOC = "K14";
+NET "TRANSISTOR[1]" LOC = "M13";
+NET "TRANSISTOR[2]" LOC = "J12";
+NET "TRANSISTOR[3]" LOC = "F12";
+
+NET "originSWITCH" LOC = "";
+
