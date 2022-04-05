@@ -19,30 +19,30 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module Receiver(
-		input [7:0] informationBits,
-		output [3:0] receivedData,
-		output [1:0] receivedOriginSW,
-		output [1:0] receivedDestinationSW,
+		input [10:0] informationBus,
+		output [7:0] dataToDisplay,
 		input clk,
 		input reset
     );
 	 
+	 reg [13:0] count; 
+	 reg [7:0] localDataToDisplay;
+	 reg [3:0] i = 1'b0;
 	 
+	 assign dataToDisplay = localDataToDisplay;
 	 
 	 always @(posedge clk, posedge reset)begin 
-		if (reset)
-			localDisplayData <= 4'b00;
+		if(reset)
+			count <= 0;
 		else begin 
-			if (externalDestinationSW == internalIdentifierSW)  
-				localDisplayData <= data;
-			else 
-				localDisplayData <= 4'b00;
+			if(count == 9_600)
+				if (informationBus[10] == 0)begin
+					if (i < 7)
+						localDataToDisplay[i] <= informationBus[i+2];
+					else 
+						i <= 0;
+				end
 		end
 	 end
 	 
-	 assign receivedData = informationBits[3:0];
-	 assign receivedOriginSW = informationBits[7:6];
-	 assign receivedDestinationSW = informationBits[4:5];
-	
-
 endmodule
